@@ -1,4 +1,3 @@
-
 import { Phone, MapPin, Mail, Wifi, Car, Shield, Utensils, Tv, Wind, Users } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
@@ -58,27 +57,6 @@ const Index = () => {
         </div>
       </section>
 
-      {/* Video Section */}
-      <section className="py-16 bg-white">
-        <div className="container mx-auto px-4">
-          <h3 className="text-3xl font-bold text-center mb-8">Take a Virtual Tour</h3>
-          <div className="max-w-4xl mx-auto">
-            <div className="aspect-video rounded-lg overflow-hidden shadow-lg">
-              <iframe
-                width="100%"
-                height="100%"
-                src="https://www.youtube.com/embed/m89GEHe1j4I"
-                title="UNIQ FLATS Virtual Tour"
-                frameBorder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowFullScreen
-                className="w-full h-full"
-              ></iframe>
-            </div>
-          </div>
-        </div>
-      </section>
-
       {/* Gallery Section */}
       <section className="py-16 bg-gray-50">
         <div className="container mx-auto px-4">
@@ -97,6 +75,27 @@ const Index = () => {
                 </CardContent>
               </Card>
             ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Video Section */}
+      <section className="py-16 bg-white">
+        <div className="container mx-auto px-4">
+          <h3 className="text-3xl font-bold text-center mb-8">Take a Virtual Tour</h3>
+          <div className="max-w-4xl mx-auto">
+            <div className="aspect-video rounded-lg overflow-hidden shadow-lg">
+              <iframe
+                width="100%"
+                height="100%"
+                src="https://www.youtube.com/embed/m89GEHe1j4I"
+                title="UNIQ FLATS Virtual Tour"
+                frameBorder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+                className="w-full h-full"
+              ></iframe>
+            </div>
           </div>
         </div>
       </section>
