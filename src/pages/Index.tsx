@@ -1,5 +1,3 @@
-
-
 import { Phone, MapPin, Mail, Wifi, Car, Shield, Utensils, Tv, Wind, Users } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
@@ -23,9 +21,9 @@ const Index = () => {
     { src: "/lovable-uploads/3ec7b9e3-8fc5-4343-8b2f-9fd76c6cc5b3.png", alt: "Dining Area" },
     { src: "/lovable-uploads/7bcc096f-ac72-422a-a3da-99457d372d17.png", alt: "City View" },
     { src: "/lovable-uploads/c1b7d605-5ca2-46b4-a96d-b298e5c1984c.png", alt: "Building Exterior" },
-    { src: "/lovable-uploads/b87062f8-d920-49e4-9023-951829e3b880.png", alt: "Building Front" },
-    { src: "/lovable-uploads/8380887d-1782-4a7f-8bf0-a8ad0ebba845.png", alt: "Bathroom" },
     { src: "/lovable-uploads/651930b6-67b1-4ba2-b279-0e57264e9964.png", alt: "Furnished Beds" },
+    { src: "/lovable-uploads/8380887d-1782-4a7f-8bf0-a8ad0ebba845.png", alt: "Bathroom" },
+    { src: "/lovable-uploads/b87062f8-d920-49e4-9023-951829e3b880.png", alt: "Building Front" },
   ];
 
   const handleCall = (number: string) => {
@@ -215,4 +213,3 @@ const Index = () => {
 };
 
 export default Index;
-
