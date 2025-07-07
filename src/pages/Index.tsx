@@ -11,8 +11,8 @@ const Index = () => {
     { icon: Car, title: "Parking", description: "Secure parking space available" },
     { icon: Shield, title: "24/7 Security", description: "CCTV surveillance & security" },
     { icon: Utensils, title: "Kitchen Facility", description: "Fully equipped common kitchen" },
-    { icon: Tv, title: "Common Area", description: "TV lounge and recreation room" },
-    { icon: Wind, title: "Spacious Rooms", description: "Well-ventilated comfortable rooms" },
+    { icon: Tv, title: "Common Area", description: "TV lounge and recreation area" },
+    { icon: Wind, title: "Spacious", description: "Well-ventilated comfortable spaces" },
   ];
 
   const galleryImages = [
@@ -23,7 +23,7 @@ const Index = () => {
     { src: "/lovable-uploads/c1b7d605-5ca2-46b4-a96d-b298e5c1984c.png", alt: "Building Exterior" },
     { src: "/lovable-uploads/651930b6-67b1-4ba2-b279-0e57264e9964.png", alt: "Furnished Beds" },
     { src: "/lovable-uploads/8380887d-1782-4a7f-8bf0-a8ad0ebba845.png", alt: "Bathroom" },
-    { src: "/lovable-uploads/b87062f8-d920-49e4-9023-951829e3b880.png", alt: "Building Front" },
+    { src: "/lovable-uploads/f1658ae6-70b7-4593-9ac9-5b87a1cf2b46.png", alt: "Building View" },
   ];
 
   const handleCall = (number: string) => {
