@@ -115,9 +115,9 @@ const Index = () => {
       <section className="py-16 bg-white">
         <div className="container mx-auto px-4">
           <h3 className="text-3xl font-bold text-center mb-8">Our Amenities</h3>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 justify-items-center">
             {amenities.map((amenity, index) => (
-              <Card key={index} className="text-center p-6 hover:shadow-lg transition-shadow">
+              <Card key={index} className="text-center p-6 hover:shadow-lg transition-shadow w-full max-w-sm">
                 <CardContent className="p-0">
                   <amenity.icon className="h-12 w-12 mx-auto text-primary mb-4" />
                   <h4 className="text-xl font-semibold mb-2">{amenity.title}</h4>
