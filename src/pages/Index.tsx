@@ -1,5 +1,4 @@
-
-import { Phone, MapPin, Mail, Wifi, Car, Shield, Utensils, Wind, Users } from "lucide-react";
+import { Phone, MapPin, Mail, Wifi, Car, Shield, Utensils, Wind, Users, Building } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 
@@ -13,6 +12,7 @@ const Index = () => {
     { icon: Shield, title: "24/7 Security", description: "CCTV surveillance & security" },
     { icon: Utensils, title: "Kitchen Facility", description: "Fully equipped common kitchen" },
     { icon: Wind, title: "Spacious", description: "Well-ventilated comfortable spaces" },
+    { icon: Building, title: "Elevator", description: "Convenient elevator access" },
   ];
 
   const galleryImages = [
