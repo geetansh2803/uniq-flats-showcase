@@ -1,3 +1,4 @@
+
 import { Phone, MapPin, Mail, Wifi, Car, Shield, Utensils, Wind, Users, Building } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
@@ -142,6 +143,14 @@ const Index = () => {
                   <div>
                     <p className="font-medium">Address</p>
                     <p className="text-gray-300">{address}</p>
+                    <a 
+                      href="https://maps.app.goo.gl/c9BtZzz4Mh8WnW6E9"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-blue-400 hover:text-blue-300 transition-colors underline text-sm mt-1 inline-block"
+                    >
+                      View on Google Maps
+                    </a>
                   </div>
                 </div>
                 <div className="flex items-start space-x-3">
