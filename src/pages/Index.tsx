@@ -1,3 +1,4 @@
+
 import { Phone, MapPin, Mail, Wifi, Car, Shield, Utensils, Wind, Users, Building } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
@@ -99,7 +100,7 @@ const Index = () => {
               <iframe
                 width="100%"
                 height="100%"
-                src="https://www.youtube.com/embed/m89GEHe1j4I"
+                src="https://www.youtube.com/embed/VO_HnXREdzc"
                 title="UNIQ FLATS Virtual Tour"
                 frameBorder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
