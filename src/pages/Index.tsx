@@ -1,4 +1,3 @@
-
 import { Phone, MapPin, Mail, Wifi, Car, Shield, Utensils, Wind, Users, Building } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
@@ -18,7 +17,7 @@ const Index = () => {
 
   const galleryImages = [
     { src: "/lovable-uploads/1c326a68-d88c-46ed-87ec-f46c4805d260.png", alt: "Elevator" },
-    { src: "/lovable-uploads/fdd259b4-ef49-43c9-94b1-d0e4d32e236d.png", alt: "Furnished Bed" },
+    { src: "/lovable-uploads/43998fdf-5e08-41a0-a68a-c606e6fc3843.png", alt: "Modern Kitchen" },
     { src: "/lovable-uploads/3ec7b9e3-8fc5-4343-8b2f-9fd76c6cc5b3.png", alt: "Dining Area" },
     { src: "/lovable-uploads/7bcc096f-ac72-422a-a3da-99457d372d17.png", alt: "City View" },
     { src: "/lovable-uploads/c1b7d605-5ca2-46b4-a96d-b298e5c1984c.png", alt: "Building Exterior" },
